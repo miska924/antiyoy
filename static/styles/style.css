@@ -1,0 +1,22 @@
+* {
+    /* contextmenu: false; */
+    margin: 0;
+    overflow: hidden;
+    /* oncontextmenu: none; */
+}
+
+header {
+    height: 40px;
+    background-color: #311e47;
+}
+
+h1, h2 {
+    color: bisque;
+    text-align: center;
+}
+
+#canvas {
+    height: calc(100vh - 40px);
+    width: 100vw;
+    display: inline;
+}
